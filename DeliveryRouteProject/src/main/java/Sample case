@@ -1,0 +1,27 @@
+Input :
+Enter total orders to be delivered :
+2
+Enter the start geo-location :
+2.0 3.0
+Enter the restaurant 1 geo-location :
+9.0 4.0
+Enter the customer 1 geo-location :
+10.0 22.0
+Enter the restaurant 2 geo-location :
+4.0 9.0
+Enter the customer 2 geo-location :
+1.0 1.0
+
+
+Output :
+Adjacency matrix of distance between locations :
+0 786 0 702 0
+786 0 1976 783 949
+0 1976 0 1581 2528
+702 783 1581 0 949
+0 949 2528 949 0
+
+traverseOrder : [0, 3, 1, 4, 2]
+
+Shortest distance in km. : 4962
+Shortest possible time in hours : 248
